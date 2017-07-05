@@ -72,6 +72,25 @@ We can also work on translating pa-applet. There are very few strings, so we
 should be able to easily support many languages.
 
 
+Installing
+==========
+
+* ./autogen.sh
+* ./configure
+* make
+* sudo make install
+
+pa-applet depends on at least the following development packages
+
+* libgtk-3-dev
+* libmirclient-dev
+* libxkbcommon-dev
+* libegl1-mesa-dev
+* libwayland-dev
+* libpulse-dev
+* libnotify-dev
+
+
 Reporting bugs
 ==============
 
